@@ -215,4 +215,4 @@ chk f a b = f a == b
 
 -- 2.
 arith :: Num b => (a -> b) -> Integer -> a -> b
-arith f i a = f a + fromIntegral i
+arith f i a = f a + fromInteger i
